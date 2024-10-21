@@ -111,6 +111,38 @@ Solve Exercise 7 here:
 
 game.party.splice(0, 1, pokemon[25])
 
+//game.party calls upon the party array within the game array
+//splice will remove and add at the same time
+//0 means it starts on the first item in the array
+//1 means it will delete one item
+//pokemon calls upon the pokemon array and [25] calls upon the 26th pokemon in the array
+//this is what will be added 
+
+/*
+Exercise 8
+1. Print the name of each Pokémon in your party.
+2. Consider using a loop or an array method to access each Pokémon's name.
+
+Solve Exercise 8 here:
+*/
+
+game.party.forEach(pokemon => {
+//using the for each to call upon pokemon
+
+    console.log(pokemon.name);
+    //printing pokemon name
+})
+
+/*
+Exercise 9
+1. Can you print out all the starter Pokémon from the `pokemon` array?
+2. Think about how you can identify a starter Pokémon and then log their names.
+
+
+Solve Exercise 9 here:
+*/
+
+
 console.log(game)
 
 
