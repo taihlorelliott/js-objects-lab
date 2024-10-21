@@ -73,7 +73,23 @@ game.party.push(pokemon[6], pokemon[5], pokemon[56])
 //(in here is where we list what will be added and call upon it by using pokemon to summon the pokemon array and [number] to call on a specific pokemon)
 // console.log(game)
 
+/*
+Exercise 6
+1. Set the `completed` property to true for gyms with a difficulty below 3.
+2. Think about how you'd loop through the `gyms` array to check and update the `completed` property.
 
 
+Solve Exercise 6 here:
+*/
 
+for (let i = 0; i < game.gyms.length; i++){
+    //setting up the for loop if, starting at the first item in the array, spaning the legnth of the entire array, and then just adding one each tiem to move up the array
+    if(game.gyms[i].difficulty < 3){
+        //this says if the gyms array with inside the game array [i] =intiger of difficulty is less than 3
+        game.gyms[i].completed = true
+        //then you are going to mark the completed item whtin the array as true
+    }
+}
+
+console.log(game)
 
