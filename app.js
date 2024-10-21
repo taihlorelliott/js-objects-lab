@@ -41,6 +41,37 @@ game.difficulty = "Hard"
 // console.log(game) 
 //just me testing
 
+/*
+Exercise 4
+1. Select a starter Pokémon from the `pokemon` array. Remember, a starter Pokémon's `starter` property is true.
+2. Add this Pokémon to the `game.party` array. Which array method will you use to add them?
+
+
+Solve Exercise 4 here:
+*/
+
+game.party.push(pokemon[24])
+//game calls upon the game array
+//party calls upon the party array within game
+//push adds something to the party array
+//pokemon calls upon the pokemon array
+//24 calls upon pikachu since they are 25th on the list
+
+// console.log(game) 
+
+/*
+Exercise 5
+1. Choose three more Pokémon from the `pokemon` array and add them to your party.
+2. Consider different attributes like 'type' or 'HP' for your selection. Which array method will you use to add them?
+
+
+Solve Exercise 5 here:
+*/
+
+game.party.push(pokemon[6], pokemon[5], pokemon[56])
+//game.party.push calls upon the correct array and subarray and then push adds items to the array
+//(in here is where we list what will be added and call upon it by using pokemon to summon the pokemon array and [number] to call on a specific pokemon)
+// console.log(game)
 
 
 
